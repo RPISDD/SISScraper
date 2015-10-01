@@ -29,4 +29,4 @@ var parseSchedule = function(schedule_doc){
         var root_div = window.document.evaluate('//*[@id="pp1"]', window.document).iterateNext();
         console.log(root_div);
     });
-}
+};
